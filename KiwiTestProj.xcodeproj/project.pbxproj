@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E518D4714D80E5200A482DA /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E518D4614D80E5200A482DA /* libKiwi.a */; };
 		3EF2845D14D7C14400768794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2845C14D7C14400768794 /* UIKit.framework */; };
 		3EF2845F14D7C14400768794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2845E14D7C14400768794 /* Foundation.framework */; };
 		3EF2846114D7C14400768794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2846014D7C14400768794 /* CoreGraphics.framework */; };
@@ -17,11 +18,11 @@
 		3EF284A514D7D43300768794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2845C14D7C14400768794 /* UIKit.framework */; };
 		3EF284A614D7D43300768794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2845E14D7C14400768794 /* Foundation.framework */; };
 		3EF284AC14D7D43300768794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EF284AA14D7D43300768794 /* InfoPlist.strings */; };
-		3EF284AF14D7D43300768794 /* KiwiTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF284AE14D7D43300768794 /* KiwiTarget.m */; };
 		3EF287A814D7D69900768794 /* SimpleSpec2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF287A714D7D69900768794 /* SimpleSpec2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E518D4614D80E5200A482DA /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKiwi.a; path = "Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 		3EF2845814D7C14400768794 /* KiwiTestProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiTestProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF2845C14D7C14400768794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3EF2845E14D7C14400768794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,8 +37,6 @@
 		3EF284A314D7D43300768794 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3EF284A914D7D43300768794 /* KiwiTarget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTarget-Info.plist"; sourceTree = "<group>"; };
 		3EF284AB14D7D43300768794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3EF284AD14D7D43300768794 /* KiwiTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiTarget.h; sourceTree = "<group>"; };
-		3EF284AE14D7D43300768794 /* KiwiTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiTarget.m; sourceTree = "<group>"; };
 		3EF284B014D7D43300768794 /* KiwiTarget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiTarget-Prefix.pch"; sourceTree = "<group>"; };
 		3EF287A614D7D69900768794 /* SimpleSpec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleSpec2.h; path = ../SimpleSpec2.h; sourceTree = "<group>"; };
 		3EF287A714D7D69900768794 /* SimpleSpec2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleSpec2.m; path = ../SimpleSpec2.m; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E518D4714D80E5200A482DA /* libKiwi.a in Frameworks */,
 				3EF284A414D7D43300768794 /* SenTestingKit.framework in Frameworks */,
 				3EF284A514D7D43300768794 /* UIKit.framework in Frameworks */,
 				3EF284A614D7D43300768794 /* Foundation.framework in Frameworks */,
@@ -70,6 +70,7 @@
 		3EF2844D14D7C14400768794 = {
 			isa = PBXGroup;
 			children = (
+				3E518D4614D80E5200A482DA /* libKiwi.a */,
 				3EF2846214D7C14400768794 /* KiwiTestProj */,
 				3EF284A714D7D43300768794 /* KiwiTarget */,
 				3EF2845B14D7C14400768794 /* Frameworks */,
@@ -121,8 +122,6 @@
 		3EF284A714D7D43300768794 /* KiwiTarget */ = {
 			isa = PBXGroup;
 			children = (
-				3EF284AD14D7D43300768794 /* KiwiTarget.h */,
-				3EF284AE14D7D43300768794 /* KiwiTarget.m */,
 				3EF287A614D7D69900768794 /* SimpleSpec2.h */,
 				3EF287A714D7D69900768794 /* SimpleSpec2.m */,
 				3EF284A814D7D43300768794 /* Supporting Files */,
@@ -253,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF284AF14D7D43300768794 /* KiwiTarget.m in Sources */,
 				3EF287A814D7D69900768794 /* SimpleSpec2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +354,8 @@
 				GCC_PREFIX_HEADER = "KiwiTarget/KiwiTarget-Prefix.pch";
 				INFOPLIST_FILE = "KiwiTarget/KiwiTarget-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -371,6 +371,8 @@
 				GCC_PREFIX_HEADER = "KiwiTarget/KiwiTarget-Prefix.pch";
 				INFOPLIST_FILE = "KiwiTarget/KiwiTarget-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
